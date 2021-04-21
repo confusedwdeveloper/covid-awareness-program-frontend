@@ -1,6 +1,8 @@
+import Layout from "../src/features/layout";
+
 export default function AboutPage() {
   return (
-    <div>
+    <Layout title="COVID-19 Awareness | About">
       <h1>About</h1>
       <p>
         We are trying to bring awareness among general populace about covid-19,
@@ -9,6 +11,6 @@ export default function AboutPage() {
         well as bringing awareness about vacinnation.
       </p>
       <button>Conditional Register</button>
-    </div>
+    </Layout>
   );
 }

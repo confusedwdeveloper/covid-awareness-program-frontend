@@ -1,7 +1,9 @@
+import Layout from "../../src/features/layout";
+
 export default function EventPage() {
   return (
-    <div>
+    <Layout>
       <h1>My Event</h1>
-    </div>
+    </Layout>
   );
 }
